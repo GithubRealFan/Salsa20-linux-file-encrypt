@@ -32,7 +32,7 @@ const uint8_t o[4][4] = {
 	{ '2', '-', 'b', 'y' },
 	{ 't', 'e', ' ', 'k' }
 };
-
+ 
 static void s20_quarterround(uint32_t *y0, uint32_t *y1, uint32_t *y2, uint32_t *y3) {
 	*y1 ^= ROTL32(*y0 + *y3, 7);
 	*y2 ^= ROTL32(*y1 + *y0, 9);
